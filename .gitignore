@@ -1,0 +1,12 @@
+#файлы питона
+venv/
+.pylintrc
+__pycache__/
+
+#файлы IDE
+.vscode
+.idea
+
+#файлы django
+db.sqlite3
+media/
