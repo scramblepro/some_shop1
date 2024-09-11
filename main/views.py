@@ -5,14 +5,10 @@ from goods.models import Categories
 
 # это не функция, а представление либо контроллер
 def index(request):
-    
-    categories = Categories.objects.all()
 
     context = {
         'title': 'магазинный магазин',
         'content': 'Магазин мебели HOME',
-        'categories': categories
-
     }
 
     return render(request, #т.к. директорию темплэйтс джанга будет искать автоматически, мы пишем сразу

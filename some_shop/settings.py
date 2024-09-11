@@ -130,8 +130,7 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS: list = [
     BASE_DIR / 'static'
     ]
-
-MEDIA_URL = 'media/'
+EDIA_URL = 'media/'
 
 MEDIA_ROOT = BASE_DIR / 'media'
 
