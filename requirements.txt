@@ -23,4 +23,3 @@ wcwidth==0.2.10
 ipython
 djangorestframework
 django-filter
-psycopg2-binary
