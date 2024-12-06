@@ -5,7 +5,6 @@ decorator==5.1.1
 Django==4.2.7
 django-debug-toolbar==4.2.0
 executing==2.0.1
-ipython==8.17.2
 jedi==0.19.1
 matplotlib-inline==0.1.6
 parso==0.8.3
@@ -21,6 +20,7 @@ traitlets==5.13.0
 typing_extensions==4.8.0
 wcwidth==0.2.10
 
+ipython
 djangorestframework
 django-filter
 psycopg2-binary
